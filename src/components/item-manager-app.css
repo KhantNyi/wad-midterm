@@ -1,0 +1,48 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px; /* Header alignment */
+}
+
+/* Table basic style */
+.item-table {
+  /* border-collapse: collapse;
+  text-align: left; */
+  width: 100%;
+}
+
+.item-table th,
+.item-table td {
+  border-bottom: 1px solid black;
+}
+
+/* Header */
+#h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+#error-message {
+  color: red;
+  margin-top: 6px;
+  font-size: 0.85rem;
+}
+
+.category-icon {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+.icon-btn {
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
